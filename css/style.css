@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+.container-title {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    padding-left: 50px;
+
+
+}
+
+.logo {
+    background-image: url("../img/Logo.png");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+    font-size: 70px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.titolo-sito {
+    display: inline-block;
+    top: 50%;
+    font-size: 70px;
+}
+
+.container-main {
+    width: 900px;
+    height: 1000px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.buttons {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.356);
+}
+
+button {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.button .blu {
+    background-color: #47ADF1;
+    color: white;
+    border-color: #47ADF1;
+}
+
+.button .bianco {
+    color: rgba(128, 128, 128, 0.377);
+    border-color: rgba(128, 128, 128, 0.356);
+    background-color: white;
+}
+
+.container {
+    padding-left: 55px;
+    padding-top: 30px;
+}
+
+.titolo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.righe {
+    margin-top: 15px;
+}
+
+.fatto {
+    display: inline-block;
+    border: 1px solid rgb(12, 168, 12);
+    color: rgb(12, 168, 12);
+    border-radius: 50%;
+
+}
+
+.non-fatto {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.testo {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.tag {
+    display: inline-block;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+
+}
+
+.blu {
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+}
+
+.viola {
+    background-color: purple;
+    border-color: purple;
+}
+
+.verde {
+    background-color: green;
+    border color: green;
+}
+
+.arancione {
+    background-color: orange;
+    border-color: orange;
+}
+
+.rosa {
+    background-color: pink;
+    border-color: pink;
+}
+
+.verde2 {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
