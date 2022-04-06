@@ -89,15 +89,16 @@ button {
 
 .fatto {
     display: inline-block;
-    border: 1px solid rgb(12, 168, 12);
+    border: 2px solid rgb(12, 168, 12);
     color: rgb(12, 168, 12);
     border-radius: 50%;
-
+    width: 25px;
+    text-align: center;
 }
 
 .non-fatto {
     display: inline-block;
-    border: 1px solid red;
+    border: 2px solid red;
     border-radius: 50%;
 }
 
@@ -126,7 +127,7 @@ button {
 
 .verde {
     background-color: green;
-    border color: green;
+    border color: green; 
 }
 
 .arancione {
